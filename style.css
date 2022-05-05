@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Your Awesome Styling Goes Here */
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+time {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  font-size: 7vw;
+  padding: 2%;
+  background: black;
+  display: block;
+}
+
+.hours {
+  /*   background: lightyellow; */
+  color: white;
+  font-weight: 400;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 20%;
+}
+
+.minutes {
+  /*   background: lightpink; */
+  color: white;
+  font-weight: 400;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 20%;
+}
+
+.seconds {
+  /*   background: lightblue; */
+  color: white;
+  font-weight: 400;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 20%;
+}
+
+.amOrPM {
+  font-weight: 200;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  position: static;
+}
+
+span {
+  background: black;
+  color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.month {
+  color: white;
+}
+
+.dayOfMonth {
+  color: white;
+}
+
+.year {
+  color: white;
+}
+
+.dayOfWeek {
+  color: white;
+}
+
+hr {
+  width: 58%;
+  margin: 0.15vw;
+  border: solid 0.5px;
+}
