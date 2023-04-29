@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* Your Awesome Styling Goes Here */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: black;
@@ -78,7 +83,15 @@ span {
 }
 
 hr {
-  width: 58%;
+  width: 57%;
   margin: 0.15vw;
   border: solid 0.5px;
+  /* gradient border fill */
+  border-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+  border-image-slice: 1;
 }

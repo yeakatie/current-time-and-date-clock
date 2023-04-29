@@ -13,7 +13,7 @@ const allTheMonths = [
   "September",
   "October",
   "November",
-  "December"
+  "December",
 ];
 const allTheDays = [
   "Sunday",
@@ -22,7 +22,7 @@ const allTheDays = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 
 /************
@@ -123,3 +123,6 @@ Run App
 ************/
 // Re-run `theClockApp` every 1 second (1000 ms)
 setInterval(theClockApp, 1000);
+
+
+
